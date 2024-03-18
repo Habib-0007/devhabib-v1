@@ -1,5 +1,5 @@
 const skillsList = () => {
-	var data = [
+	const dataList = [
 		{
 			id: 1,
 			name: "HTML",
@@ -33,20 +33,20 @@ const skillsList = () => {
 		{
 			id: 7,
 			name: "Git",
-			icon: "fa-git"
+			icon: "fa-git",
 		},
 		{
 			id: 8,
 			name: "Github",
-			icon: "fa-github"
+			icon: "fa-github",
 		},
 	];
 
-	return data;
+	return dataList;
 };
 
 const Skills = () => {
-	var data = skillsList();
+	const data = skillsList();
 	return (
 		<section className="skills">
 			<h1>Skills &#128333;</h1>
