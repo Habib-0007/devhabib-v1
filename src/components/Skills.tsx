@@ -50,7 +50,7 @@ const Skills = () => {
 	return (
 		<section className="skills">
 			<h1>Skills &#128333;</h1>
-			<section class="skills-content">
+			<section className="skills-content">
 				{data.map(value => (
 					<div key={value.id}>
 						<i className={`fab ${value.icon}`}></i>
