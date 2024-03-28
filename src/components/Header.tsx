@@ -1,11 +1,10 @@
-const Navbar = () => {
+const Nav = () => {
 	return (
-		<nav className="hide">
-			<a href="#home">Home</a>
-			<a href="#about">About</a>
-			<a href="#skills">Skills</a>
-			<a href="#projects">Projects</a>
-			<a href="#contact">Contact</a>
+		<nav>
+			<a href="/about">About</a>
+			<a href="/projects">Projects</a>
+			<a href="/blogs">Blogs</a>
+			<a href="/photos">Photos</a>
 		</nav>
 	);
 };
@@ -14,8 +13,11 @@ const Header = () => {
 	return (
 		<header>
 			<h1>HA</h1>
-			<Navbar />
-			<button className="menu-bar">&#9776;</button>
+			<Nav />
+			<div className="bars">
+				<i className="fa fa-moon"></i>
+				<i className="fa fa-bars"></i>
+			</div>
 		</header>
 	);
 };

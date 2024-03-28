@@ -1,16 +1,10 @@
 import "./App.css";
-import Header from './components/Header'
-import Showcase from './components/Showcase'
-import About from './components/About'
-import Skills from './components/Skills'
+import Home from "./pages/Home"
 
 function App() {
 	return (
 		<section>
-			<Header />
-			<Showcase />
-			<About />
-			<Skills />
+			<Home />
 		</section>
 	);
 }
